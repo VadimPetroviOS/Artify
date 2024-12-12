@@ -1,0 +1,54 @@
+# Xcode
+DerivedData/
+.idea/
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/report.json
+
+# Archives
+*.xcarchive
+
+# SwiftPM
+.build/
+
+# Dependency manager
+Cartfile.resolved
+Cartfile.private
+
+# Bundler
+/.bundle/
+/Gemfile.lock
+
+# SPM
+/.build/
+/Packages/
+/.swiftpm/xcode/
+
+# User-specific
+*.user/
+*.rspec
+.DS_Store
+*.swp
+*.swo
